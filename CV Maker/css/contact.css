@@ -1,0 +1,310 @@
+.contact__container{
+  background: var(--color-bg1);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 4rem;
+  height: auto;
+  margin: 5rem auto 5rem;
+  border-radius: 1rem;
+width: 90%;
+}
+
+/*======================= ASIDE =======================  */
+.lab_self{
+	text-align: center;
+	color: #000;
+	padding: 10px;
+	background-color: #dedede;
+}
+.bod{
+  width: 100%;
+  padding: 10px;
+}
+.contact__aside  {
+	
+  padding: 20px;
+  border-radius: 1rem;
+  width: 70%;
+  position: relative;
+/*   ------ */
+ color: #222;
+ background-color: #1F2641;
+}
+
+.clear {clear: both;}
+.Edu{
+	font-weight: 400;
+		font-size:12px;
+		line-height: 1.4em;
+		color: #444;
+		margin: 2px 2px;
+		margin-right: 12px;
+}
+.EduT {
+	font-weight: 400;
+		font-size:14px;
+		color:#cf8a05;
+		margin: 2px 2px;
+		margin-right: 4px;
+}
+
+#cv {
+	width: 100%;
+height: 100%;
+	background: #f3f3f3;
+	
+}
+
+.mainDetails {
+	padding: 3px 5px;
+	border-bottom: 2px solid #cf8a05;
+	background: #ededed;
+}
+
+#name h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 16px;
+	font-weight: 400px;
+	margin: 0 3px 0 ;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+#name h3 {
+	font-size: 12px;
+	font-weight: 300px;
+	margin: 5px;
+	float:left;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 5px;
+}
+
+#headshot {
+	width: 10%;
+	float: left;
+	margin-right: 5px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name {
+	float: right;
+	
+}
+
+#contactDetails {
+	float:left;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.3em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 5px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 8px 0 3px;
+	
+}
+
+.sectionTitle  {
+	text-align: right;
+	float:right;
+	width: 25%;
+	
+}
+.sectionContent {
+	text-align: right;
+	float: left;
+	width: 72.5%;
+	padding-bottom:5px;
+	color: #444;
+	font-size: 12px;
+}
+.sectionContentEDU{
+	text-align: right;
+	float: left;
+	width: 36.25%;
+	padding-bottom:8px;
+	display:inline;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 14px;
+	color: #cf8a05;
+}
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin-bottom: -2px;
+	text-align: right;
+}
+
+.subDetails{
+	font-size: 9px;
+	font-style: italic;
+	margin-bottom: 1px;
+}
+
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 5px;
+	font-size: 12px;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+}
+
+/*======================= FORM =======================  */
+
+.form__info{
+	display:flex;
+	flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+.form__EDU{
+	display:none;
+	flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+  }
+  .form__EDUT{
+	display:none;
+	flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+  }
+  .form__expearians{
+	display:none;
+	flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+  }
+  .form__Skil{
+	display:none;
+	flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+  }
+
+.form__name{
+  display: flex;
+  gap: 1.2rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  text-align: right;
+}
+
+/*============= MEDIA QUERIES (TABLET) =============  */
+@media screen and (max-width: 1024px) {
+  .contact{
+    padding-bottom: 0;
+  }
+
+  .contact__container{
+    gap: 1.5rem;
+    margin-top: 3rem;
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  .contact__aside{
+    width: auto;
+    padding: 10px;
+    bottom: 0;
+  }
+
+  .contact__form{
+    align-self: center;
+    margin-right: 1.5rem;
+  }
+}
+
+/*============= MEDIA QUERIES (PHONES) =============  */
+@media screen and (max-width: 600px) {
+	.contact__container{
+	 grid-template-columns: 1fr;
+	 gap: 3rem;
+	 margin-top: 4rem;
+	 padding: 0;
+	}
+   
+	.form__info{
+	 margin: 0 1.5rem 3rem;
+	}
+	.form__EDU{
+	margin: 0 1.5rem 3rem;
+	}
+	.form__EDUT{
+		margin: 0 1.5rem 3rem;
+	}
+	.form__expearians{
+		margin: 0 1.5rem 3rem;
+	}
+	.form__Skil{
+		margin: 0 1.5rem 3rem;
+	}	
+	.form__name{
+	 flex-direction: column;
+	}
+   
+	.form__name input[type="text"]{
+	 width: 100%;
+	 float: right;
+	}
+   }
